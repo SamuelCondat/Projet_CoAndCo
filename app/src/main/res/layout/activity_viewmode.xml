@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    android:orientation = "vertical" >
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:rowCount="10"
+        android:columnCount="4" >
+        <ImageButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/btn_mode_00"
+            android:background="@drawable/btn_caca"
+            android:layout_margin="@dimen/btn_padding" />
+        <ImageButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/btn_mode_01"
+            android:background="@drawable/btn_caca"
+            android:layout_margin="@dimen/btn_padding" />
+        <ImageButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/btn_mode_02"
+            android:background="@drawable/btn_caca"
+            android:layout_margin="@dimen/btn_padding" />
+        <ImageButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/btn_mode_03"
+            android:background="@drawable/btn_caca"
+            android:layout_margin="@dimen/btn_padding" />
+        <ImageButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/btn_mode_04"
+            android:background="@drawable/btn_caca"
+            android:layout_margin="@dimen/btn_padding" />
+        <ImageButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/btn_mode_05"
+            android:background="@drawable/btn_caca"
+            android:layout_margin="@dimen/btn_padding" />
+        <ImageButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/btn_mode_06"
+            android:background="@drawable/btn_caca"
+            android:layout_margin="@dimen/btn_padding" />
+
+        <ImageButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/btn_mode_07"
+            android:background="@drawable/btn_caca"
+            android:layout_margin="@dimen/btn_padding" />
+    </GridLayout>
+</LinearLayout>

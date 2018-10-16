@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<dimen name="btn_height">64dp</dimen>
+    <dimen name="btn_width">64dp</dimen>-->
+    <dimen name = "btn_padding">9dp</dimen>
+
+    <dimen name="btn_height_sml">18.12dp</dimen>
+    <dimen name="btn_width_sml">55dp</dimen>
+    <dimen name="btn_egal_height_sml">104.19dp</dimen>
+    <dimen name="btn_egal_width_sml">55dp</dimen>
+    <dimen name="screen_height_sml">115dp</dimen>
+    <dimen name="screen_width_sml">280dp</dimen>
+    <dimen name="body_height_sml">425.82dp</dimen>
+    <dimen name="body_width_sml">320dp</dimen>
+    <dimen name = "marginTop_sml">13.59dp</dimen>
+    <dimen name = "marginRight_sml">20dp</dimen>
+    <dimen name = "marginBottom_sml">13.59dp</dimen>
+    <dimen name = "marginLeft_sml">20dp</dimen>
+
+    <dimen name="btn_height_nrml">20dp</dimen>
+    <dimen name="btn_width_nrml">55dp</dimen>
+    <dimen name="btn_egal_height_nrml">115dp</dimen>
+    <dimen name="btn_egal_width_nrml">55dp</dimen>
+    <dimen name="screen_height_nrml">115dp</dimen>
+    <dimen name="screen_width_nrml">280dp</dimen>
+    <dimen name="body_height_nrml">470dp</dimen>
+    <dimen name="body_width_nrml">320dp</dimen>
+    <dimen name = "marginTop_nrml">15dp</dimen>
+    <dimen name = "marginRight_nrml">20dp</dimen>
+    <dimen name = "marginBottom_nrml">15dp</dimen>
+    <dimen name = "marginLeft_nrml">20dp</dimen>
+
+    <dimen name="btn_height_lrg">27.2dp</dimen>
+    <dimen name="btn_width_lrg">82.5dp</dimen>
+    <dimen name="btn_egal_height_lrg">156.4dp</dimen>
+    <dimen name="btn_egal_width_lrg">82.5dp</dimen>
+    <dimen name="screen_height_lrg">156.4dp</dimen>
+    <dimen name="screen_width_lrg">420dp</dimen>
+    <dimen name="body_height_lrg">639.2dp</dimen>
+    <dimen name="body_width_lrg">480dp</dimen>
+    <dimen name = "marginTop_lrg">20.4dp</dimen>
+    <dimen name = "marginRight_lrg">30dp</dimen>
+    <dimen name = "marginBottom_lrg">20.4</dimen>
+    <dimen name = "marginLeft_lrg">30dp</dimen>
+
+    <dimen name="btn_height_xlrg">40.8dp</dimen>
+    <dimen name="btn_width_xlrg">123.75dp</dimen>
+    <dimen name="btn_egal_height_xlrg">234.6dp</dimen>
+    <dimen name="btn_egal_width_xlrg">123.75dp</dimen>
+    <dimen name="screen_height_xlrg">234.6dp</dimen>
+    <dimen name="screen_width_xlrg">630dp</dimen>
+    <dimen name="body_height_xlrg">958.8dp</dimen>
+    <dimen name="body_width_xlrg">720dp</dimen>
+    <dimen name = "marginTop_xlrg">30.6dp</dimen>
+    <dimen name = "marginRight_xlrg">45dp</dimen>
+    <dimen name = "marginBottom_xlrg">45dp</dimen>
+    <dimen name = "marginLeft_xlrg">30.6dp</dimen>
+</resources>

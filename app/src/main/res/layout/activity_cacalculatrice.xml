@@ -1,0 +1,204 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    android:orientation = "vertical"
+    android:background="@color/colorBlack">
+
+    <LinearLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:orientation = "vertical"
+        android:gravity="center_horizontal"
+        android:background="@drawable/corps_caca">
+
+        <LinearLayout
+            android:layout_width="330dp"
+            android:layout_height="100dp"
+            android:background="@drawable/ecran_caca"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical"
+            >
+
+
+            <HorizontalScrollView
+                android:id="@+id/scrollTop"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="top|right"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:id="@+id/affichage1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:orientation="horizontal" />
+            </HorizontalScrollView>
+            <!-- android:scrollbars="horizontal" -->
+            <HorizontalScrollView
+                android:id="@+id/scrollDown"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom|right"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:id="@+id/affichage2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:orientation="horizontal" />
+            </HorizontalScrollView>
+        </LinearLayout>
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:rowCount="5"
+            android:columnCount="4">
+            <ImageButton
+                android:id="@+id/btn_0"
+                android:background="@drawable/btn_0_caca"
+                android:tag="0"
+                android:layout_row = "4"
+                android:layout_column = "1"
+                android:layout_margin="@dimen/btn_padding"
+                />
+            <ImageButton
+                android:id="@+id/btn_1"
+                android:background="@drawable/btn_1_caca"
+                android:tag="1"
+                android:layout_row = "3"
+                android:layout_column = "0"
+                android:layout_margin="@dimen/btn_padding" />
+            <ImageButton
+                android:id="@+id/btn_2"
+                android:background="@drawable/btn_2_caca"
+                android:tag="2"
+                android:layout_row = "3"
+                android:layout_column = "1"
+                android:layout_margin="@dimen/btn_padding" />
+            <ImageButton
+                android:id="@+id/btn_3"
+                android:background="@drawable/btn_3_caca"
+                android:tag="3"
+                android:layout_row = "3"
+                android:layout_column = "2"
+                android:layout_margin="@dimen/btn_padding" />
+            <ImageButton
+                android:id="@+id/btn_4"
+                android:background="@drawable/btn_4_caca"
+                android:tag="4"
+                android:layout_row = "2"
+                android:layout_column = "0"
+                android:layout_margin="@dimen/btn_padding" />
+            <ImageButton
+                android:id="@+id/btn_5"
+                android:background="@drawable/btn_5_caca"
+                android:tag="5"
+                android:layout_row = "2"
+                android:layout_column = "1"
+                android:layout_margin="@dimen/btn_padding" />
+            <ImageButton
+                android:id="@+id/btn_6"
+                android:background="@drawable/btn_6_caca"
+                android:tag="6"
+                android:layout_row = "2"
+                android:layout_column = "2"
+                android:layout_margin="@dimen/btn_padding" />
+            <ImageButton
+                android:id="@+id/btn_7"
+                android:background="@drawable/btn_7_caca"
+                android:tag="7"
+                android:layout_column="0"
+                android:layout_row="1"
+                android:layout_margin="@dimen/btn_padding" />
+            <ImageButton
+                android:id="@+id/btn_8"
+                android:background="@drawable/btn_8_caca"
+                android:tag="8"
+                android:layout_row = "1"
+                android:layout_column = "1"
+                android:layout_margin="@dimen/btn_padding" />
+            <ImageButton
+                android:id="@+id/btn_9"
+                android:background="@drawable/btn_9_caca"
+                android:tag="9"
+                android:layout_row = "1"
+                android:layout_column = "2"
+                android:layout_margin="@dimen/btn_padding" />
+            <ImageButton
+                android:id="@+id/btn_dot"
+                android:background="@drawable/btn_point_caca"
+                android:tag="."
+                android:layout_row = "4"
+                android:layout_column = "2"
+                android:layout_margin="@dimen/btn_padding" />
+            <ImageButton
+                android:id="@+id/btn_div"
+                android:background="@drawable/btn_div_caca"
+                android:tag="/"
+                android:layout_row = "0"
+                android:layout_column = "2"
+                android:layout_margin="@dimen/btn_padding" />
+            <ImageButton
+                android:id="@+id/btn_mult"
+                android:background="@drawable/btn_mult_caca"
+                android:tag="x"
+                android:layout_row = "0"
+                android:layout_column = "3"
+                android:layout_margin="@dimen/btn_padding" />
+            <ImageButton
+                android:id="@+id/btn_plus"
+                android:background="@drawable/btn_plus_caca"
+                android:tag="+"
+                android:layout_row = "2"
+                android:layout_column = "3"
+                android:layout_margin="@dimen/btn_padding" />
+            <ImageButton
+                android:id="@+id/btn_minus"
+                android:background="@drawable/btn_moins_caca"
+                android:tag="-"
+                android:layout_row = "1"
+                android:layout_column = "3"
+                android:layout_margin="@dimen/btn_padding" />
+            <ImageButton
+                android:id="@+id/btn_equal"
+                android:background="@drawable/btn_egal_caca"
+                android:tag="="
+                android:layout_row = "3"
+                android:layout_column = "3"
+                android:layout_rowSpan="2"
+                android:layout_margin="@dimen/btn_padding" />
+            <ImageButton
+                android:id="@+id/btn_cancel"
+                android:background="@drawable/btn_cancel_caca"
+                android:tag="C"
+                android:layout_row = "4"
+                android:layout_column = "0"
+                android:layout_margin="@dimen/btn_padding" />
+            <ImageButton
+                android:id="@+id/btn_trophy"
+                android:background="@drawable/btn_trophee_caca"
+                android:tag="trophy"
+                android:layout_row = "0"
+                android:layout_column = "0"
+                android:layout_margin="@dimen/btn_padding" />
+            <ImageButton
+                android:id="@+id/btn_caca"
+                android:background="@drawable/btn_caca_caca"
+                android:tag="caca"
+                android:layout_row = "0"
+                android:layout_column = "1"
+                android:layout_margin="@dimen/btn_padding" />
+        </GridLayout>
+    </LinearLayout>
+</LinearLayout>
